@@ -15,8 +15,8 @@ public class Mobile {
         this(Pbrand, Pmodel, 0);
     }
 
-    Mobile(String brand) {
-        this(brand, "Unknown", 0);
+    Mobile(String Pbrand) {
+        this(Pbrand, "Unknown", 0);
     }
 
     Mobile() {
@@ -40,3 +40,4 @@ public class Mobile {
         m4.displayInformation();
     }
 }
+
